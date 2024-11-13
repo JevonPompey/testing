@@ -1,0 +1,10 @@
+<!-- esc_pos_preparation_printer/views/pos_preparation_printer_template.xml -->
+<odoo>
+  <template id="PreparationPrinterButton" inherit_id="point_of_sale.Screens">
+    <div t-name="PreparationPrinterButton" class="control-button">
+      <button class="button" type="button">
+        Send to Preparation Printer
+      </button>
+    </div>
+  </template>
+</odoo>
